@@ -55,7 +55,7 @@ def retrieve_article_content(article_link):
         return article_title
 
     except Exception as e:
-        print(f"Erreur lors de la récupération du contenu de l'article : {e}")
+        print(f"Impossible de récuperer l'article demander : {e}")
         return None
 
 llm = Ollama(
