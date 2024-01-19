@@ -11,9 +11,9 @@ Cela installera Ollama sur votre ordinateur.
 - Une fois l'installation terminée, sur la même invite de commande, entrez : ollama serve
 
 - Enfin, exécutez la commande :
-ollama run mistral
+ollama run Vicuna
 
-Le LLM Mistral sera alors en cours d'exécution, et vous pourrez interagir avec lui.
+Le LLM Vicuna sera alors en cours d'exécution, et vous pourrez interagir avec lui.
 
 ### 2. Installer les Librairies
 
@@ -24,13 +24,11 @@ pip install -r requirements.txt
 
 - Téléchargez le fichier précompilé de SQLite pour Windows depuis le site officiel SQLite : [SQLite Download](https://www.sqlite.org/download.html)
 
-- Ajoutez une nouvelle variable d'environnement système dans le PATH de Windows. Elle devrait pointer vers le dossier sqlite-tools-win-x64 ( !!! le dossier complet, pas un des fichiers .exe contenu dedans !!!)
-
-Vous pouvez désormais lancer le projet dans de bonnes conditions ! 🚀
+- Ajoutez une nouvelle variable d'environnement dans le PATH de Windows. Elle devrait pointer vers le dossier sqlite-tools-win-x64 🚀
 
 ## II - Voir les Résumés dans la Base de Données
 
-1. Entrez la commande :
+1. Entrez la commande qui vous permettra d'interagir avec la base crée:
 sqlite3 articles.db
 
 2. Vous pouvez maintenant naviguer dans votre base de données en entrant des requêtes SQL.
