@@ -1,4 +1,4 @@
-# AICoinPost
+# AICoinPost ₿₿₿₿₿
 
 ## I - Configuration du Projet
 
